@@ -11,9 +11,9 @@ svrs(PDF, N, a, b)
 
 \item{N}{number of attempted samples}
 
-\item{low}{lower bound of the support of PDF}
+\item{a}{lower bound of the support of PDF}
 
-\item{high}{upper bound of the support of PDF}
+\item{b}{upper bound of the support of PDF}
 }
 \value{
 a dataframe of samples from PDF
