@@ -24,4 +24,3 @@ svrs <- function(PDF, N, a, b){
   estpdf <- data.frame(x=ifelse(xsamp[ysamp<PDF(xsamp)], xsamp, NA))
 }
 
-
